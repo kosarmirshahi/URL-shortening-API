@@ -107,7 +107,7 @@ h1 {
   height: 3rem;
   background-color: hsl(180, 66%, 49%);
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -126,6 +126,36 @@ h1 {
 #middleText {
   font-size: 24px;
   color: hsl(257, 7%, 63%);
+}
+.answer {
+  width: 67%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px 0px 25px;
+  display: none;
+}
+.shortLink {
+  color: hsl(180, 66%, 49%);
+}
+.rightShort {
+  display: flex;
+  align-items: center;
+}
+.copyBtn {
+  width: 5rem;
+  height: 2rem;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
 }
 .cards {
   width: 70%;
